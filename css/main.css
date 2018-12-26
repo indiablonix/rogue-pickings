@@ -327,14 +327,13 @@ footer span {
 
 		width: 100%;
 		display: flex;
-		justify-content: flex-start;
-		align-items: flex-start;
+		justify-content: space-between;
 		flex-flow: row wrap;
 	}
 
 	header h1 {
 		height: 40px;
-		width: 50%;
+		width: 40%;
 		border: none;
 		padding-top: 36px;
 		display: flex;
@@ -348,21 +347,6 @@ footer span {
 
 	}
 
-	header nav {
-		margin-top: 16px;
-		margin-left: 62px;
-	}
-
-	/* nav {
-		margin-left: 54px;
-	} */
-	/* nav ul {
-		height: 40px;
-		display: flex;
-		justify-content: flex-end;
-		align-items: flex-end;
-		width: 100%;
-	} */
 
 	ul.menu {
 		height: 150px;
