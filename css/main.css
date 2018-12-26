@@ -17,7 +17,8 @@ body {
 }
 
 .container{
-	width: 100%;
+	max-width: 1200px;
+	width: 90%;
 	margin: 0 30px;
 	display: flex;
 	justify-content: center;
@@ -268,6 +269,14 @@ footer span {
 		width: 100%;
 	}
 
+	header {
+		width: 100%;
+	}
+
+	header h1 {
+		width: 100%;
+	}
+
 	ul.menu {
 		height: 175px;
 		width: 175px;
@@ -306,6 +315,7 @@ footer span {
 		width: 100%;
 	}
 }
+/*===== Desktop =====*/
 
 @media all and (min-width: 1200px) {
 	.container {
@@ -332,16 +342,27 @@ footer span {
 		align-items: flex-start;
 	}
 
-	nav {
-		margin-left: 54px;
+	header nav ul {
+		display: flex;
+		justify-content: space-between;
+
 	}
-	nav ul {
+
+	header nav {
+		margin-top: 16px;
+		margin-left: 62px;
+	}
+
+	/* nav {
+		margin-left: 54px;
+	} */
+	/* nav ul {
 		height: 40px;
 		display: flex;
 		justify-content: flex-end;
 		align-items: flex-end;
 		width: 100%;
-	}
+	} */
 
 	ul.menu {
 		height: 150px;
